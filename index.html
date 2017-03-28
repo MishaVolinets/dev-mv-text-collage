@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mvTextCollapse">
+    <head>
+        <title>Directive</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./Content/style.css" rel="stylesheet" >
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
+        <script src="./node_modules/angular/angular.js"></script>
+        <script src="./app/mv-text-collapse.js"></script>
+    </head>
+    <body ng-controller="testCtrl as $ctrl">
+
+        <div class="container" text-collapse="$ctrl.messageText" tc-max-chars="100"></div>
+    </body>
+</html>

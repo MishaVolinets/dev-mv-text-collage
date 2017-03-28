@@ -1,0 +1,18 @@
+{
+    "name": "mv-text-collapse",
+    "description": "Angularjs directive to hide big text",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "ISC",
+    "author": "Misha Volinets",
+    "scripts": {
+        "start": "lite-server"
+    },
+    "dependencies": {
+        "jquery": "3.2.1",
+        "angular": "1.6.3"
+    },
+    "devDependencies": {
+        "lite-server": "2.3.0"
+    }
+}

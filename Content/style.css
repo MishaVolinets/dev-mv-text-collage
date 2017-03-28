@@ -1,0 +1,6 @@
+.container{
+    width: 300px;
+    min-height: 100px;
+    background-color: #BBB;
+    border: 1px solid #7c7474;
+}
